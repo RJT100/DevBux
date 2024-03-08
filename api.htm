@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBux API Usage</title>
+</head>
+<body>
+    <h1>DevBux API Usage</h1>
+    <h2>Balance API</h2>
+    <p>The Balance API allows you to retrieve the balance of a user's DevBux.</p>
+    <p>To use the Balance API:</p>
+    <ul>
+        <li>Send a GET/HTTP request to <code>balapi.php</code> with the following parameters:</li>
+        <ul>
+            <li><strong>username</strong>: The username of the user whose balance you want to retrieve.</li>
+        </ul>
+        <li>Example: <code>balapi.php?username=user123</code></li>
+    </ul>
+
+    <h2>Send API</h2>
+    <p>The Send API allows you to transfer DevBux from one user to another.</p>
+    <p>To use the Send API:</p>
+    <ul>
+        <li>Send a GET/HTTP request to <code>sendapi.php</code> with the following parameters:</li>
+        <ul>
+            <li><strong>username</strong>: Your username.</li>
+            <li><strong>password</strong>: Your password.</li>
+            <li><strong>sendto</strong>: The username of the recipient.</li>
+            <li><strong>amount</strong>: The amount of DevBux to send.</li>
+        </ul>
+        <li>Example: <code>sendapi.php?username=user123&password=password123&sendto=recipient456&amount=10</code></li>
+    </ul>
+
+    <p>Make sure to replace the placeholder values (user123, password123, recipient456) with actual usernames and passwords.</p>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+    "test": {
+        "balance": 159.60000000000065,
+        "last_claimed": 1709734597
+    },
+    "admin": {
+        "balance": 16.99999999999998,
+        "last_claimed": 1709734804
+    },
+    "gg": {
+        "balance": 0
+    },
+    "exchange": {
+        "balance": 9.303920932930219e+32
+    },
+    "pp": {
+        "balance": 1,
+        "last_claimed": 1709737019
+    },
+    "PythonScratcher": {
+        "balance": 99999994456
+    },
+    "owo": {
+        "balance": 6.999999999999992,
+        "last_claimed": 1709895946
+    }
+}
