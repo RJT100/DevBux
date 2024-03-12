@@ -11,14 +11,15 @@
         "balance": 0
     },
     "exchange": {
-        "balance": 9.303920932930219e+32
+        "balance": 930392093293021932
     },
     "pp": {
         "balance": 1,
         "last_claimed": 1709737019
     },
     "PythonScratcher": {
-        "balance": 99999994456
+        "balance": 0,
+        "last_claimed": 1710160194
     },
     "owo": {
         "balance": 6.999999999999992,
